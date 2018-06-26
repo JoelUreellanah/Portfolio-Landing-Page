@@ -1,0 +1,31 @@
+html {
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
+  box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#wrapper{
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+  /* background: blue; */
+}
+
+section {
+  display: -webkit-box;
+}
+
+.white-space {
+  padding-top: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

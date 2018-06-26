@@ -1,0 +1,9 @@
+.box{
+  /* background: #ccc; */
+  width: 70%;
+  /* height: 520px; */
+  margin-bottom: 30px;
+  position: relative;
+  left: 25%;
+  transform: translate(-50%);
+}

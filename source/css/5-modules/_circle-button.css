@@ -1,0 +1,17 @@
+.circle-button {
+  /* background: $mainBlue; */
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 2px solid $mainBlue;
+
+  &__say-hello {
+    color: #0274E0;
+  }
+
+}
+
+.circle-button:hover {
+  background: $mainBlue;
+  color: white;
+  transition: all 0.2s ease;
+}
